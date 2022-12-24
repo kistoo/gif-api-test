@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(255, 204, 141);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    gap: 5vh;
+}
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+input {
+    width: 20vw;
+    height: 5vh;
+    font-size: 4vh;
+    padding: 1vh;
+}
+button {
+    padding: 1vh;
+    font-size: 3vh;
+}
